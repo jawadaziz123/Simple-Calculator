@@ -1,8 +1,8 @@
 const display = document.getElementById("display")
 const button= document.querySelectorAll(".btn")
 
-button.forEach((button) =>{
-    button.addEventListener("click", () =>
+button.forEach(function(button){
+    button.addEventListener("click", function()
     {
         const value = this.innerText;
 
